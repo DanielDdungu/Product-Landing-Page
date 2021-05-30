@@ -1,6 +1,6 @@
 /** global element styling **/
 
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@
 
 body {
     background-color: #eee;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 #page-wrapper {
@@ -267,6 +267,7 @@ nav>ul {
     margin: 15px 0;
     background-color: #f1c40f;
     font-weight: 400;
+    border-radius: 12px;
 }
 
 .product>button:hover {
